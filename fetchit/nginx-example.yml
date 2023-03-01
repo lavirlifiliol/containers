@@ -1,4 +1,4 @@
-Image: docker.io/_/nginx:latest
+Image: "docker.io/_/nginx:latest"
 Name: "nginx-test"
 Ports:
   - container-port: 80
