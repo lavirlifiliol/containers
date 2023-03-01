@@ -1,0 +1,9 @@
+targetConfigs:
+- url: https://github.com/lavirlifiliol/containers
+  raw:
+  - name: containers
+    targetPath: fetchit
+    schedule: "*/1 * * * *"
+    pullImage: true
+  branch: main
+

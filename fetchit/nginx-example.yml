@@ -1,0 +1,7 @@
+Image: docker.io/_/nginx:latest
+Name: "nginx-test"
+Ports:
+  - container-port: 80
+    host-port: 8081
+    range: 0
+    protocol: tcp
