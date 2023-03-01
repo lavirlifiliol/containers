@@ -1,0 +1,6 @@
+Image: "docker.io/itzg/minecraft-server"
+Name: "minecraft-test"
+Ports:
+  - container_port: 25565
+    host_port: 25565
+    range: 0

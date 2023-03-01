@@ -1,6 +1,0 @@
-Image: "docker.io/library/nginx:latest"
-Name: "nginx-test"
-Ports:
-  - container_port: 80
-    host_port: 8081
-    range: 0
